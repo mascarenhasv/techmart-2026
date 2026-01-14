@@ -1,0 +1,27 @@
+{
+  "_NOTICE": "FAKE CREDENTIALS - Educational material for technical debt training",
+  "database": {
+    "server": "techmart-fake-db.dummy.windows.net",
+    "database": "sales",
+    "username": "EXAMPLE_admin",
+    "password": "FAKE_PASSWORD_FOR_TRAINING_ONLY",
+    "driver": "ODBC Driver 17 for SQL Server"
+  },
+  "paths": {
+    "extract_sql": "C:\\Users\\DataTeam\\pipelines\\techmart_pipeline\\extract_data.sql",
+    "transform_sql": "C:\\Users\\DataTeam\\pipelines\\techmart_pipeline\\transform_data.sql",
+    "output_directory": "C:\\Users\\DataTeam\\pipelines\\output\\"
+  },
+  "settings": {
+    "batch_size": 1000,
+    "timeout": 300,
+    "retry_count": 3,
+    "cleanup_days": 7
+  },
+  "notification": {
+    "email": "FAKE-USER@FAKE-SERVER.com",
+    "smtp_server": "smtp.FAKE-SERVER.com",
+    "smtp_user": "FAKE_USER_FOR_TRAINING_ONLY",
+    "smtp_password": "EXAMPLE_smtp_pass"
+  }
+}
