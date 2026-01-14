@@ -1,2 +1,5 @@
-# techmart-2025
-TechMart codebase for 2025
+# ⚠️ EDUCATIONAL TRAINING MATERIAL
+
+This codebase contains **intentionally flawed code** with fake credentials for teaching technical debt identification. 
+
+**All credentials are fake. No real systems exist.**
