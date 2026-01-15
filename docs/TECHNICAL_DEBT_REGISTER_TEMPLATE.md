@@ -17,6 +17,9 @@ For each technical debt item you identify:
 6. Calculate **Priority** (see matrix below)
 7. Describe what the remediation would involve (not implementing it, just planning)
 
+
+
+
 ### Impact/Effort Priority Matrix
 
 | Impact | Effort | Priority |
@@ -36,13 +39,10 @@ For each technical debt item you identify:
 ## Technical Debt Items
 
 ### TD-001
-**Category:** (Code Quality / Performance / Security / Maintainability / Configuration)
-
-**Issue Description:**
-
-
+**Category:** Code Quality
+**Issue Description:** DB Credentials are hard-coded and unecrypted
 **Location:** 
-- File: 
+- File:  src/pipeline.py
 - Line(s): 
 
 **Why does this matter? (Impact explanation):**
